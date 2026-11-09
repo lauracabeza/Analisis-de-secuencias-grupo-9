@@ -1,2 +1,3 @@
-# Repositorio-grupo-9
-##Scripts grupo 9
+# Experimento de análisis de secuencias grupo 9
+
+## Scripts grupo 9
