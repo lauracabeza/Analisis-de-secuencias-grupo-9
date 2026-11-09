@@ -1,5 +1,2 @@
-# Repositorio-grupo-9
-
-## Componentes
-### Andrea, Esther, Laura y José Manuel
-#### Results Andrea
+# Experimento de análisis de secuencias grupo 9
+## Scripts
