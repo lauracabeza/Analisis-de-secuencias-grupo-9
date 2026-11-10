@@ -1,0 +1,4 @@
+# Reporte de Calidad FASTQ (FastQC)
+- Muestras procesadas: 8
+- Umbral de calidad Phred: > 30
+- Lecturas filtradas: 96.5%
