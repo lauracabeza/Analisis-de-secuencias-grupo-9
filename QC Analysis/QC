@@ -1,3 +1,4 @@
+# Control de calidad de los datos
 # Partimos de los archivos obtenidos tras el genotipado de las muestras, en archivos bfile o pfile.
 
 # 1. Eliminación de las variantes duplicadas

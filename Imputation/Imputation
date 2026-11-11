@@ -1,8 +1,2 @@
-# Partimos de los datos finales obtenidos a partir de los controles de calidad previamente aplicados (QC_Analysis) 
-
-# Comenzamos exportando los datos finales del QC al formato aceptado por el programa de imputación escogido. En este caso Michigan Imputation Server 2
-
---bfile ~/ruta/Datos__Cohorte_QCfinal --export vcf --out ~/ruta/Datos_Cohorte
-bgzip Datos_Cohorte.vcf
-
-# Los archivos obtenidos, en formato vcf, serán subidos y procesador por el servidor de Michigan Imputation Server 2
+# Objetivo 
+Completar los valores ausentes del conjunto de datos para facilitar su posterior análisis
