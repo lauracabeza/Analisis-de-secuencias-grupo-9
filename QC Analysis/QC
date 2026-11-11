@@ -1,1 +1,24 @@
+# Partimos de los archivos obtenidos tras el genotipado de las muestras, en archivos bfile o pfile.
 
+# 1. Eliminación de las variantes duplicadas
+
+--bfile ~/ruta/Datos_Cohorte_Genotipado --rm-dup force-first --out ~/ruta/Datos_Cohorte_sinDuplicados
+
+
+# 2. Eliminaciónd de cromosomas no autosómicos (sexuales) y mitocondriales // Poseen un proceso de análisis diferente
+
+--bfile ~/ruta/Datos_Cohorte_sinDuplicados --chr 1-22 --out Datos_Cohorte_1a22
+
+
+# 3. Equilibrio de Hardy-Weimberg
+
+--bfile ~/ruta/Datos_Cohorte_1a22 -hwe 1e-6 --out ~/ruta/Datos_Cohorte_HWE
+
+
+# 4. Frecuencia del alelo menor
+
+--bfile ~/ruta/Datos_Cohorte_HWE --maf 0.01 --out ~/ruta/Datos_Cohorte_QCfinal
+
+
+# Se ha usado la aplicación Plink2 para Linux para basarnos en la creación de código.
+# Se han utilizado controles de calidad básico, de todos los que se pueden y deben hacer.
