@@ -1,1 +1,5 @@
+# Utilizamos la lista de variantes significativas y sugestivas que hemos obtenido de realizar el metaanálisis así como los archivos bfile o pfile que hemos usado antes de realizar el metaanálisis
 
+#Utilizando la aplicación de Plink2 para obtener los valores de R^2 y D' asociados al desequilibrio de ligamiento (LD)
+
+--bfile ~/ruta/controlVSenfermo --ld-snp-list /ruta/snps_controlVSenfermo --r2-phased cols=id,dprime,freq,chrom,pos --out ~/ruta/LD
