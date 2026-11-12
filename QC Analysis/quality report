@@ -2,3 +2,11 @@
 - Muestras procesadas: 8
 - Umbral de calidad Phred: > 30
 - Lecturas filtradas: 96.5%
+# Evaluación de la Tasa de error
+- Concordancia de genotipos
+- Muestras duplicadas
+- Porcentaje de genotipos discordantes
+# Trazabilidad de las muestras
+- Identificación de muestras
+- Registro de procesamiento
+- Herramientas bioinformáticas y versiones empleadas
